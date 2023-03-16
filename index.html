@@ -1,26 +1,50 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8"> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>井上 潮 (Ushio INOUE)</title>
   <style>
     .header, .footer {
 	  background-color:#066; color:white; padding:20px;
 	}
-    .content {
-	  padding-left:20px;
-	}
 	.header-part {
-	  display:inline-block; vertical-align:top;
+	  font-size:1.5em; display:inline-block; vertical-align:top;
 	}
 	.header-img {
-	  margin-left:100px;
+	  width:180px; margin-left:300px;
 	}
 	.larger {
-	  font-size:2.5em;
+	  font-size:2em;
 	}
-	.large {
-	  font-size:1.25em;
+    .content {
+	  padding:10px;
+	}
+    .section {
+	  padding:10px;
+	}
+	.article {
+	  padding-top:5px; padding-left:15px;
+	}
+	.headline {
+	  font-size:1.5em; font-weight:bold;
+	}
+	.headline2 {
+	  font-weight:bold;
+	}
+	ul {
+	  margin-top:0px; margin-bottom:0px;
+    }
+	.no-list {
+	  list-style:none;
+	}
+	@media (max-width:767px) {
+	  .header-part, .headline {
+	    font-size:1.2em;
+	  }
+	  .header-img {
+	    width:120px; margin-left:50px;
+      }
 	}
   </style>
 </head>
@@ -28,15 +52,111 @@
   <div class="header">
     <div class="header-part">
 	  <span class="larger">井上 潮</span><br>
-      イノウエ ウシオ&nbsp;&nbsp;(Ushio INOUE)<br><br><br>
-	  <span class="large">東京電機大学工学部情報通信工学科教授</span>
+      Ushio INOUE<br><br>
+	  博士（工学）<br>東京電機大学教授
 	</div>
     <div class="header-part">
-	  <img class="header-img" src="photo.jpeg" alt="photo">
+	  <img class="header-img" src="portrait.jpeg" alt="portrait">
 	</div>
   </div>
   <div class="content">
-    <h2>準備中</h2>
+    <details open class="section">
+	  <summary class="headline">新着情報</summary>
+	  <ul class="no-list">
+	  <li>2023-03-16: 本ページを公開しました</li>
+	  </ul>
+	</details>
+    <details class="section">
+	  <summary class="headline">学歴職歴</summary>
+	  <ul>
+	  <li>2021年 日本データベース学会功労賞受賞</li>
+	  <li>2004年 東京電機大学 工学部情報通信工学科・教授</li>
+	  <li>1995年 ＮＴＴデータ通信株式会社 情報科学研究所・主幹技師</li>
+	  <li>1992年 名古屋大学学位取得・博士(工学)<br>
+	  「大規模リレーショナルデータベースの高速処理方式に関する研究」</li>
+	  <li>1990年 ＮＴＴ社長表彰受賞<br>
+	  「大規模高速データベース管理システム (DEIMS-5 and RINDA) の実用化」</li>
+	  <li>1975年 日本電信電話公社 横須賀電気通信研究所データ処理研究部</li>
+	  <li>1975年 名古屋大学工学部電気学科卒業</li>
+	  </ul>
+	</details>
+    <details class="section">
+	  <summary class="headline">所属学会</summary>
+	  <ul>
+	  <li>日本データベース学会 (DBSJ)</li>
+	  <li>情報処理学会 (IPSJ)</li>
+	  <li>電子情報通信学会 (IEICE)</li>
+	  <li>Association for Computing Machinery (ACM)</li>
+	  </ul>
+	</details>
+    <details class="section">
+	  <summary class="headline">発表論文</summary>
+	  <details open class="section">
+	    <summary class="headline2">2023</summary>
+		<ul>
+		<li>及川正樹, 井上潮, "BERTと能動学習を用いた攻撃的なツイートの分類," 第15回データ工学と情報マネジメントに関するフォーラム, 第21回日本データベース学会年次大会 (DEIM2023), 1b-2-1, Mar. 2023.</li>
+		<li>ロエイケン, 井上潮, "質問文中の特徴語と感情を用いた半教師あり学習によるトピックの分類," 第15回データ工学と情報マネジメントに関するフォーラム, 第21回日本データベース学会年次大会 (DEIM2023), 1b-2-3, Mar. 2023.</li>
+		<li>北大地, 井上潮, "プログラミング授業のためのEclipse Cheを用いた学習支援システムの開発および検証," 第15回データ工学と情報マネジメントに関するフォーラム, 第21回日本データベース学会年次大会 (DEIM2023), 5a-6-2, Mar. 2023.</li>
+		</ul>
+	  </details>
+	  <details class="section">
+	    <summary class="headline2">2022</summary>
+		<ul>
+		<li>櫻井拓也, 井上潮, "JPEG XLの決定木学習を利用した画像集合の可逆圧縮手法の検討," 第14回データ工学と情報マネジメントに関するフォーラム, 第20回日本データベース学会年次大会 (DEIM2022), C31-1, Mar. 2022. <a href="https://proceedings-of-deim.github.io/DEIM2022/#C31" target="_blank">Link</a></li>
+		<li>北大地, 井上潮, "プログラミング授業のためのEclipse Cheを用いた学習支援システムの検討," 第14回データ工学と情報マネジメントに関するフォーラム, 第20回日本データベース学会年次大会 (DEIM2022), H41-3, Mar. 2022. <a href="https://proceedings-of-deim.github.io/DEIM2022/#H41" target="_blank">Link</a></li>
+		<li>及川正樹, 井上潮, "深層学習と能動学習を用いた攻撃的なツイートの分類," 電子情報通信学会2022年総合大会, D-20-18, Mar. 2022.</li>
+		</ul>
+	  </details>
+	  <details class="section">
+	    <summary class="headline2">2021</summary>
+		<ul>
+		<li>Takuya Sakurai, and Ushio Inoue, "Lossless Image Set Compression Using Animated FLIF," Proc. of the The 8th International Virtual Conference on Applied Computing & Information Technology (ACIT2021), pp. 99-104, June. 2021. <a href="https://doi.org/10.1145/3468081.3471130" target="_blank">Link</a></li>
+		<li>橋本快生, 井上潮, "章構造による学術論文からのStructured Abstract自動生成," 情報処理学会第83全国大会, 2S-01, Mar. 2021.</li>
+		<li>土田浩輝, 北大地, 井上潮, "GUIプログラミング授業のためのフィードバック支援システムの検討," 情報処理学会第83全国大会, 2ZG-05, Mar. 2021.</li>
+		<li>龔華楊, 井上潮, "属性語埋め込みによるニューラルネットワーク対話システム," 電子情報通信学会2021年総合大会, D-5-5, Mar. 2021.</li>
+		<li>櫻井拓也, 井上潮, "アニメーションFLIFを利用した画像集合の可逆圧縮," 電子情報通信学会2021年総合大会, D-11-39, Mar. 2021.</li>
+		</ul>
+	  </details>
+	  <details class="section">
+	    <summary class="headline2">2020</summary>
+		<ul>
+		<li>Kai Hashimoto, and Ushio Inoue, "Automatic Generation of Structured Abstracts from Research Papers by using Deep Learning," Proc. of 2020 9th International Congress on Advanced Applied Informatics (IIAIAAI2020), pp. 424-429, Sep. 2020. <a href="https://doi.org/10.1109/IIAI-AAI50415.2020.00092" target="_blank">Link</a></li>
+		<li>立石良生, 井上潮, "模範解答を利用したGUIプログラミング課題の自動採点システム," 第12回データ工学と情報マネジメントに関するフォーラム, 第18回日本データベース学会年次大会 (DEIM2020), I1-1, Mar. 2020. <a href="https://proceedings-of-deim.github.io/DEIM2020/#I1" target="_blank">Link</a></li>
+		<li>大政飛鳥, 井上潮, "グラフ型データベースを用いたWikipediaにおける不適切リンクの修正手法," 第12回データ工学と情報マネジメントに関するフォーラム, 第18回日本データベース学会年次大会 (DEIM2020), B3-1, Mar. 2020. <a href="https://proceedings-of-deim.github.io/DEIM2020/#B3" target="_blank">Link</a></li>
+		<li>橋本快生, 井上潮, "深層学習による学術論文からのStructured Abstract自動生成," 第12回データ工学と情報マネジメントに関するフォーラム, 第18回日本データベース学会年次大会 (DEIM2020), G5-3, Mar. 2020. <a href="https://proceedings-of-deim.github.io/DEIM2020/#G5" target="_blank">Link</a></li>
+		<li>櫻井拓也、井上潮, “DEVSモデルとプロセス指向モデルの混合シミュレーション手法,” 情報処理学会第82全国大会, 4K-06, Mar. 2020.</li>
+		</ul>
+	  </details>
+    </details>
+    <details class="section">
+	  <summary class="headline">解説記事</summary>
+	  <details open class="section">
+	    <summary class="headline2">PostgreSQL関連</summary>
+	    <details class="article">
+	      <summary>PgAdmin4を使って簡単なテーブルを作成する (2022/9/27)</summary>
+		  <span class="section">ウェブブラウザ上で対話的にPostgreSQLデータベースの管理・運用ができるPgAdmin4アプリケーションを使って、簡単なテーブルを作成する方法について説明します。<a href="https://zenn.dev/uinoue/articles/5a151389c12255" target="_blank">Link</a></span>
+	    </details>
+	    <details class="article">
+		  <summary>PostgreSQLのポータブル版をインストールする (2022/9/2)</summary>
+		  <span class="section">USBメモリ等に入れて持ち運びが可能なPostgreSQLのポータブル版をインストールする方法を説明します。<a href="https://zenn.dev/uinoue/articles/fe85a8f55b078c" target="_blank">Link</a></span>
+	    </details>
+      </details>
+	  <details open class="section">
+	    <summary class="headline2">Python関連</summary>
+	    <details class="article">
+	      <summary>PythonとNews APIを使ってニュース記事を収集する (2022/3/4)</summary>
+		  <span class="section">簡単なPythonのプログラムと開発目的ならば無償で利用できるNEWS APIを使って、ニュース記事を収集する方法を紹介します。
+		  <a href="https://zenn.dev/uinoue/articles/660ee202373f64" target="_blank">Link</a></span>
+	    </details>
+      </details>
+	</details>
+	<details class="section">
+	  <summary class="headline">連絡先等</summary>
+	  <ul class="no-list">
+	  <li>https: //inoueu.github.io</li>
+	  <li>e-mail: uinoue [AT] acm.org</li>
+	  </ul>
+	</details>
   </div>
   <div class="footer">
     Copyright &copy; 2023 Ushio Inoue, All Rights Reserved.
